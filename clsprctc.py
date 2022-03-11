@@ -46,3 +46,18 @@ myfunction()
 myemptylist.append(1)
 
 myfunction()
+
+
+def outer_func():
+    def inner_func():
+        print("inner function")
+    inner_func()
+
+outer_func()
+
+def new_outer_func(ouelement):
+    def new_inner_func():
+        print(f"new inner function", ouelement)
+    new_inner_func()
+
+new_outer_func("This is Outer element")    
