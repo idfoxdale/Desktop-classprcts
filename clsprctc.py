@@ -15,3 +15,10 @@ print(mynewlist[0].name)
 print(mynewlist[0].age)
 mynewlist[0].age = 30
 print(mynewlist[0].age)
+
+""" 2What is the purpose of the pass statement in Python?
+
+a.It is used to skip the yield statement of a generator and return a value of None.
+b.It is used to pass control from one statement block to another.
+c.It is a null operation used mainly as a placeholder in functions, classes, etc. <----
+d.It is used to skip the rest of a while or for loop and return to the start of the loop. """
