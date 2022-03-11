@@ -5,3 +5,19 @@ print(my_set)
 {0, 3.5, 'apple'}
 print(type(my_set))
 <class 'set'>
+
+
+def myfunctlen(n):
+    return len(n)
+
+x = map(myfunctlen, ('apple', 'banana', 'cherry'))
+
+# map(function, iterables)
+# map(function, iterable[, iterable1, iterable2,..., iterableN])
+
+def mynewfunctinclambda(m):
+    p = lambda m: m + 3
+    q = p(m)
+    print("hello this is an expression " + str(q))
+
+mynewfunctinclambda(3) 
