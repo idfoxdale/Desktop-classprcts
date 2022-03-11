@@ -34,10 +34,15 @@ print(mynewliststatic)
 myemptylist = []
 def myfunction():
     if len(myemptylist) == 0:
-        print("myemptylist is empty")
+        print("myemptylist is found empty")
         print("Adding to myemptylist")
         myemptylist.append(1)
     else:
-        print("myemptylist is not empty")
+        print("myemptylist is not empty " + "/n list is " + str(myemptylist))
+        
+
+myfunction() 
+
+myemptylist.append(1)
 
 myfunction()
