@@ -13,7 +13,7 @@ def myfunctlen(n):
 x = map(myfunctlen, ('apple', 'banana', 'cherry'))
 
 # map(function, iterables)
-# map(function, iterable[, iterable1, iterable2,..., iterableN])
+# map(function, iterable[ iterable1, iterable2,..., iterableN])
 
 def mynewfunctinclambda(m):
     p = lambda m: m + 3
