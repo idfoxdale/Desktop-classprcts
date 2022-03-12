@@ -10,3 +10,5 @@ list1 = [1, "string", {"key1": "value1", "key2": "value2" }]
 print(list1)
 print(list1[0])
 print(list1.insert(0, 0))
+
+<object-name> = <class-name>(arguments)
