@@ -11,3 +11,16 @@ TataNexon.city = "Bengaluru"
 TataNexon.buydate = "April 2022"
 
 print(TataNexon)
+
+class newRtot:
+    def __init__(self, revotron, revoli):
+        self.revotron = revotron
+        self.revoli = revoli
+
+π = math.pi
+
+class Spin̈alTap:
+    pass
+Spin̈alTap()
+
+        
