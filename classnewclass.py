@@ -1,8 +1,8 @@
 class Car:
     def __repr__(self):
         return "Car()"
-    def __str__(self):
-        return "member of Car"
+    #def __str__(self):
+    #    return "member of Car"
 
 TataNexon = Car()
 TataNexon.price = 14000
