@@ -1,3 +1,4 @@
+import math
 class Car:
     def __repr__(self):
         return "Car()"
@@ -23,4 +24,6 @@ class Spin̈alTap:
     pass
 Spin̈alTap()
 
-        
+#diff -u old_file new_file > patch_file.diff
+#patch old_file.diff
+#diff -u old_file new_file > patch_file.diff
