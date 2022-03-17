@@ -22,13 +22,12 @@ class myClass:
     def __init__(self, attrib1, attrib2):
         self.attrib1 = attrib1
         self.attrib2 = attrib2
-
-    def display_message(attrib1, attrib2):
-        print("myClass inst" + attrib1 + attrib2)
+        print("myClass inst " + " " + attrib1 + " " + attrib2)
 
 
-objectc1 = myClass()
+objectc1 = myClass("Ram", "Laxman")
 
 class childClass(myClass):
-    
+    pass
 
+objectcc2 = childClass("Ram Child", "Laxman Child")
