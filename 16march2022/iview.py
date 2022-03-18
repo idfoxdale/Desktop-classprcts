@@ -13,6 +13,7 @@ print("The ouptut is = " + names[-1][-3])
 
 name_set = (set(names))
 
+
 print(name_set)
 
 print(names)
