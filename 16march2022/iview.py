@@ -10,11 +10,14 @@ names = ['Chris', 'Jack', 'John', 'Daman']
 print("The ouptut is = " + names[-1][-3])
 
 # 'Daman', 'John', 'Jack'
-type(set(names))
+
+name_set = (set(names))
+
+print(name_set)
 
 print(names)
 
-class myClass:
+""" class myClass:
     def __init__(self, attrib1, attrib2):
         self.attrib1 = attrib1
         self.attrib2 = attrib2
@@ -31,4 +34,4 @@ objectc1.display()
 class childClass(myClass):
     pass
 
-objectcc2 = childClass("Ram Child", "Laxman Child")
+objectcc2 = childClass("Ram Child", "Laxman Child") """
