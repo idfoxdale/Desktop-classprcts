@@ -36,3 +36,13 @@ class childClass(myClass):
     pass
 
 objectcc2 = childClass("Ram Child", "Laxman Child") """
+
+
+class MyClass:
+    pass
+
+object1 = MyClass()
+object1.attrib1 = "Attrib1"
+object1.attrib2 = "Attrib2"
+
+print(object1)
