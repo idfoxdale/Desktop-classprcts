@@ -42,11 +42,11 @@ user1input.last_name = input("Please Enter your last name : ") """
 
 #CLASS with inherritance
 
-class A(object):
+""" class A(object):
     def __init__(self, something):
         print("A init called into ")
         self.something = something
 
 class B(A):
     def __init__(self, something):
-        super().__init__(something)
+        super().__init__(something) """
