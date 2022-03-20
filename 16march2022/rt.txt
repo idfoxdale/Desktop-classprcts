@@ -1,0 +1,4 @@
+Ask the user to input a string
+which can be as long as possible
+create substrings 
+find out all combinations
