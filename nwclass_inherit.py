@@ -16,3 +16,14 @@ print('The value of pi is: %5.4f' %(3.141592))
 print('{2} {1} {0}'.format('directions', 'the', 'Read'))
 
 
+class Employee:
+    id = 10
+    name = "John Snow"
+
+    def display(self):
+        print("Employee ID: %d \nName: %s"%(self.id, self.name))
+
+#Creating a emp instance of Employee class
+
+emp = Employee()
+emp.display()
