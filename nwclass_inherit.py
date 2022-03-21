@@ -15,6 +15,7 @@ chilobj1 = Childz1("Luv", "Kush")
 print('The value of pi is: %5.4f' %(3.141592))
 print('{2} {1} {0}'.format('directions', 'the', 'Read'))
 
+##new class style guide
 
 class Employee:
     id = 10
