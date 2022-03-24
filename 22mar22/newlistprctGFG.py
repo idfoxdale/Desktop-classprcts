@@ -1,3 +1,6 @@
+from operator import ne
+
+
 List = []
 print("Blank list: ")
 print(List)
@@ -25,3 +28,9 @@ print( "new list copied ", newlist)
 necpy = newlist.copy()
 necpy.reverse()
 print(necpy)
+f = open("test.txt")
+mynewlist = [int(x) for x in f.read().split()]
+necpy.extend(mynewlist)
+print(necpy)
+necpy.extend([int(x) for x in f.read().split()])
+print("new reslt", necpy)
